@@ -1,3 +1,3 @@
-//  const serverUrl = "http://localhost:5000"
- const serverUrl = "https://mediaplayer-bd.onrender.com"
+
+ const serverUrl = "https://mediaplayer-bd-1.onrender.com/"
  export default serverUrl
