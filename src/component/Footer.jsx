@@ -33,6 +33,7 @@ function Footer() {
           
             <a style={{textDecoration:"none", color:"white"}} target='blank'  href="https://fontawesome.com/">FONT AWESOME</a>
           </div>
+          
           <div className="contact_us ms-3 " style={{ color: 'white' }}>
             <h4>CONTACT US</h4>
 

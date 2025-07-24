@@ -1,6 +1,6 @@
 import serverUrl from "./ServerUrl";
 import commonApi from "./CommonApi";
-import { data } from "react-router-dom";
+
 
 
 
@@ -57,6 +57,18 @@ export const getallcategorys = async ()=>{
  
 export const deleteVideocategory = async(data)=>{
    return await commonApi('DELETE',`${serverUrl}/categories/${data}`,{})
+}
+
+//get
+export const getVideoDetailsByid = async (id) => {
+   return await commonApi('GET', `${serverUrl}/videos/${id}`, {});
+};
+
+//update the catecory
+
+export const updatacategory = async(id , data)=>{
+   return await commonApi('PUT', `${serverUrl}/categories/${id}`,data)
+
 }
 
 
